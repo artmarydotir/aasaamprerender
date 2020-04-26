@@ -1,22 +1,20 @@
-# nuxtstatic1
+### aasaam static boilerplate
 
-> My gnarly Nuxt.js project
+This boilerplate developed by me,
 
-## Build Setup
+- using nuxt
+- webpack configuration
+- md to html generates
+- using vue components in markdown
+- using markdown in vue template
+- generating md route
+- generates pre-rendered static HTML
 
-```bash
-# install dependencies
-$ npm install
+developed with ❤️
 
-# serve with hot reload at localhost:3000
-$ npm run dev
+-- Enjoy the dev experience --
 
-# build for production and launch server
-$ npm run build
-$ npm run start
+#### In Progress ✍️
 
-# generate static project
-$ npm run generate
-```
 
-For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
+
