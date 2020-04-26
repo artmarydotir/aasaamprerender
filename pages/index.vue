@@ -29,7 +29,7 @@
           <nuxt-link to="blog/test"> blog test</nuxt-link>
         </li>
         <li>
-          <nuxt-link to="blog/test1"> test1</nuxt-link>
+          <nuxt-link to="blog"> test1</nuxt-link>
         </li>
       </ul>
     </div>

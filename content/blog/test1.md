@@ -1,9 +1,10 @@
 ---
-title: Carrot testing
+title: Apple
 tags: veggies, cooking
 date: 2019-09-22
 excerpt: garlic
 hero: apple.jpg
+permalink: blog/test1
 ---
 
 # Veggies es bonus vobis

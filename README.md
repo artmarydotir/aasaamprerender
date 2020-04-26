@@ -9,6 +9,7 @@ This boilerplate developed by me,
 - using markdown in vue template
 - generating md route
 - generates pre-rendered static HTML
+- list all your md post as menu
 
 developed with ❤️
 
