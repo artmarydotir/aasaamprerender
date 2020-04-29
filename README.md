@@ -1,6 +1,5 @@
 ### aasaam static boilerplate
 
-This boilerplate developed by me,
 
 - using nuxt
 - webpack configuration
