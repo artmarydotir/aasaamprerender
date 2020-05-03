@@ -3,35 +3,51 @@
     <div>
       <logo />
       <h1 class="title">
-        nuxtstatic1
+        صفحه نخست index
       </h1>
-      <h2 class="subtitle">
-        My gnarly Nuxt.js project
-      </h2>
+      <p>
+        سلام عزیزم خوش اومدی
+      </p>
       <div class="links">
-        <a href="https://nuxtjs.org/" target="_blank" class="button--green">
-          Documentation
-        </a>
-        <a
-          href="https://github.com/nuxt/nuxt.js"
-          target="_blank"
-          class="button--grey"
-        >
-          GitHub
-        </a>
-        <nuxt-link to="product"> link me </nuxt-link>
-        <p>
-          سلام عزیزم خوش اومدی
-        </p>
+        <nuxt-link to="product">
+          ۱- من کامپوننت مارک دان تو تمپلیت ویو هستم.
+        </nuxt-link>
       </div>
+      <hr />
       <ul>
         <li>
-          <nuxt-link to="blog/test"> blog test</nuxt-link>
+          <nuxt-link to="blog/test">
+            من محتوای اسلاگ بلاگ در پیج هستم. لیست کامل
+          </nuxt-link>
         </li>
         <li>
-          <nuxt-link to="blog"> test1</nuxt-link>
+          <hr />
+        </li>
+        <li>
+          <nuxt-link to="blog">
+            نمایش منو مارک دان های بلاگ - لیوت: ایندکس بلاگ.
+          </nuxt-link>
         </li>
       </ul>
+      <br />
+      <hr />
+      <div>
+        <h2>
+          English md content:
+        </h2>
+        <ul>
+          <li>
+            <nuxt-link to="en/eps">
+              en post show
+            </nuxt-link>
+          </li>
+          <li>
+            <nuxt-link to="en">
+              en menu list
+            </nuxt-link>
+          </li>
+        </ul>
+      </div>
     </div>
   </div>
 </template>
@@ -49,7 +65,6 @@ export default {
 <style>
 .container {
   margin: 0 auto;
-  min-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -73,7 +88,10 @@ export default {
   word-spacing: 5px;
   padding-bottom: 15px;
 }
-
+hr {
+  color: rgb(199, 194, 194);
+  margin: 12px 0;
+}
 .links {
   padding-top: 15px;
 }

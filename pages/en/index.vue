@@ -1,8 +1,6 @@
 <template>
   <div>
-    <h1>
-      نمایش منویی مارک دان از فولدر بلاگ
-    </h1>
+    <h1>My aasaam en menu list</h1>
     <ul>
       <li v-for="post in posts" :key="post.attributes.title">
         <nuxt-link :to="post.attributes.permalink">
@@ -16,7 +14,7 @@
 <script>
 export default {
   async asyncData() {
-    const resolve = await require.context('~/content/blog', true, /\.md$/)
+    const resolve = await require.context('~/content/en', true, /\.md$/)
     const imports = resolve.keys().map((key) => {
       // eslint-disable-next-line no-unused-vars
       const [, name] = key.match(/\/(.+)\.md$/)
